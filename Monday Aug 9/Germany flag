@@ -1,46 +1,47 @@
----------------------------------HTML CODE---------------------------
-!DOCTYPE html>
+------------------------------------------------------HTML CODE-----------------------------------------------------------------------------------------
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <link rel="stylesheet" href="/css/index3.css">
+    <link rel="stylesheet" href="/css/index1.css">
 </head>
 <body>
-<div id="flag">
-    <img src="/img/download.png">
-    <h2> Germany</h2>
-    <p id="color"><span class="bold">population:</span>81,770900</p>
-    <p id="color"><span class="bold"> Region:</span>Europe</p>
-    <p id="color"><span class="bold">Capital:</span>Berlin</p>
-</div>
+
+    <div id="flag">
+        <img src="https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg">
+        <h2> Germany</h2>
+        <p id="color"><span class="bold">population:</span>81,770900</p>
+        <p id="color"><span class="bold"> Region:</span>Europe</p>
+        <p id="color"><span class="bold">Capital:</span>Berlin</p>
+    </div>
+    
 </body>
 </html>
 
-------------------------------CSS CODE--------------------------------
-body{
-    background-color: darkgrey;
-}
-#flag{
-    width:290px;
-    height:400px;
-    background-color: #ccc;
-    padding:1rem;
-    border: 1px solid orangered;
-}
-
-.color{
-
-    color:orange;
-}
-
-.bold{
+---------------------------------------------------css code---------------------------------------------------------------------------------------
+#color {
     font-weight: bold;
 }
-img{
-    border-radius: 0.3rem 0.3rem 0rem 0rem;
+body{
+    background-color: antiquewhite;
 }
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#flag{
+    width: 300px;
+    background-color: palegreen;
+    padding: auto;
+    border-radius: 1rem;
+    text-align: center;
+}
+img {
+    width: 300px;
+    margin-top: auto;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+  
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
