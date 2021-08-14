@@ -1,4 +1,4 @@
--------------------------------------------------------------------------HTML CODE-----------------------------------------
+<!-- -------------------------------------------------------------------------HTML CODE----------------------------------------- -->
 <!DOCTYPE html>
 <html lang="en">
      <head>
@@ -9,15 +9,31 @@
                content="width=device-width, initial-scale=1.0"
           />
           <title>Document</title>
+
+          <link rel="stylesheet" href="/css/index1.css" />
      </head>
      <body>
-          <script src="/js/script.js"></script>
+          <script src="/js/script3.js"></script>
      </body>
 </html>
---------------------------------------------------------------- JS CODE------------------------------------------------------------
+
+/*------------------------------------------------------------------css code-----------------------------------------------------*/
+#color {
+    font-weight: bold;
+}
+body{
+    background-color: antiquewhite;
+}
+
+img {
+    width: 300px;
+    margin-top: auto;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+  
+}
+//---------------------------------------------------------------------jS code-------------------------------------------------------
 
 const img1 = document.createElement("img");
-
 img1.setAttribute(
      "src",
      "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg"
@@ -48,3 +64,4 @@ const text3 = document.createElement("p");
 text3.innerText = "capital:Berlin";
 
 document.body.append(text3);
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
