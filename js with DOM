@@ -1,0 +1,79 @@
+const ListOfCountry = [
+  {
+    flag: "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg",
+
+    countryname: "india",
+    Population: "1.366 billion",
+    capital: "New Delhi",
+    region: "asia",
+  },
+  {
+    flag: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg",
+
+    countryname: "USA",
+    Population: "1.366 billion",
+    capital: "#####",
+    region: "#####",
+  },
+  {
+    flag: "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+
+    countryname: "CANADA",
+    Population: "#######",
+    capital: "#######",
+    region: "######",
+  },
+  {
+    flag: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg",
+
+    countryname: "LONDON",
+    Population: "#######",
+    capital:"#######",
+    region: "#######",
+  },
+  {
+    flag: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg",
+
+    countryname: "Austrlia",
+    Population: "#########",
+    capital: "##########",
+    region: "#########",
+  },
+];
+
+function flagCountry(ListOfCountry) {
+
+  const text1 = document.createElement("div");
+
+  text1.setAttribute("class", "sample");
+
+  text1.innerHTML = `
+  
+  
+  <div class="sample1">
+
+  <img  src=${ListOfCountry.flag} />
+
+
+       <h2>${ListOfCountry.countryname}</h2>
+
+       <p>Population:${ListOfCountry.Population}</p>
+
+      <p>Region:${ListOfCountry.region}</p>
+
+      <p>Capital:${ListOfCountry.capital}</p>
+
+    
+
+      </div>
+      
+      `;
+
+  document.body.append(text1);
+}
+
+for (var i = 0; i < countryInfo.length; i++) {
+
+  flagCountry(ListOfCountry);
+
+}
